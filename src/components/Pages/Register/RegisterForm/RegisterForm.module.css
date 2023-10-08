@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border: 1px solid #dfe2e8;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Style for MUI components */
+.MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.MuiButton-root {
+    margin-top: 16px;
+}
+
+.MuiFormControl-root {
+    width: 100%;
+}
+
+.MuiFilledInput-root {
+    background-color: #f3f4f6;
+}
+
+.MuiFilledInput-underline:hover::before {
+    border-bottom: 2px solid #667eea; /* For a subtle highlight effect */
+}
+
+.MuiButton-containedPrimary {
+    background-color: #667eea; 
+    color: #fff;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #5467b9; /* Slightly darker shade for the hover effect */
+}
